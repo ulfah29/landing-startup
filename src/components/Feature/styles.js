@@ -9,7 +9,6 @@ export const featureSectionContainer = css({
     boxSizing: 'border-box',
 
     h2: {
-        fontSize: '20px',
         textAlign: 'center',
         margin: '0 0 40px 0',
     },

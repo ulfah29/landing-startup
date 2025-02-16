@@ -5,6 +5,7 @@ export const aboutUsContainer = css({
     display: 'flex',
     padding: '100px 40px',
     alignItems: 'center',
+    justifyContent: 'center',
 
     '@media only screen and (max-width: 600px)': {
         display: 'block',
@@ -23,11 +24,13 @@ export const aboutUsImageContainer = css({
 
     img: {
         width: '100%',
+        maxWidth: 400,
         marginRight: 32,
     },
 
     '@media only screen and (max-width: 600px)': {
         maxWidth: '100%',
+        marginRight: 0
     }
 })
 

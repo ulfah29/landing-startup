@@ -8,6 +8,7 @@ export const faqContainer = css({
 
     h2: {
         textAlign: 'center',
+        cursor: 'pointer',
     }
 })
 

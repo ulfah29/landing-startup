@@ -15,15 +15,15 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      <HeroSection cta={scrollToSection}></HeroSection>
+      <Header />
+      <HeroSection cta={scrollToSection} />
       <div ref={myRef}>
-        <Feature></Feature>
+        <Feature />
       </div>
-      <AboutUs></AboutUs>
-      <FAQ></FAQ>
-      <ContactUs></ContactUs>
-      <Footer></Footer>
+      <AboutUs />
+      <FAQ />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
